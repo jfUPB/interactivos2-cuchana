@@ -30,7 +30,12 @@ https://formlabs.com/latam/blog/diseno-generativo/?srsltid=AfmBOoo8u0tigCxy3n6Ho
 
 - Crea un cuadro comparativo que destaque las similitudes y diferencias clave entre diseño generativo, arte generativo y diseño tradicional. Considera aspectos como el proceso creativo, las herramientas utilizadas, el rol del diseñador y los resultados obtenidos.
 
-  
+  || Diseño generativo  | Arte generativo | Diseño tradicional |
+  |-----------------|--------------------|-----------------|--------------------|
+  |Proceso creativo|
+  |Herramientas utilizadas|
+  |Rol del diseñador|
+  |Resultados obtenidos|
 
 
 
