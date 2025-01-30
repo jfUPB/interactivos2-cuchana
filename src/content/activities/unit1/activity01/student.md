@@ -32,12 +32,14 @@ https://formlabs.com/latam/blog/diseno-generativo/?srsltid=AfmBOoo8u0tigCxy3n6Ho
 
   || Diseño generativo  | Arte generativo | Diseño tradicional |
   |-----------------|--------------------|-----------------|--------------------|
-  |Proceso creativo| Se basa en algoritmos y sistemas parametrizados que generan varias soluciones a partir de reglas| Usa parametros para crear arte, obras sonoras e interactivas| Depende totalmente del trabajo manual y la creatividad del diseñador|
-  
-  |Herramientas utilizadas|Softwares especializados, programacion e IA| Processing. p5.js, algoritmos generativos y lenguajes creativos|Herramientas físicas y digitales|
-  |Rol del diseñador|Definir reglas, parámetros y restricciones para guiar el proceso creativo| 
-  |Resultados obtenidos|
+  | Proceso creativo | Se basa en algoritmos y sistemas parametrizados que generan varias soluciones a partir de reglas | Usa parametros para crear arte, obras sonoras e interactivas | Depende totalmente del trabajo manual y la creatividad del diseñador |
+  | Herramientas utilizadas | Softwares especializados, programacion e IA | Processing, p5.js, algoritmos generativos y lenguajes creativos | Herramientas físicas y digitales |
+  |Rol del diseñador|Definir reglas, parámetros y restricciones para guiar el proceso creativo| Crear sistemas de reglas, exploran el azar y las iteraciones como parte del arte|Control total del diseño, es de autoria propia desde el concepto hasta la materializacion|
+  |Resultados obtenidos|Son muy variados, optimos y tienen un proposito funcional| Son más unicos, artisticos y se enfocan en la estetica y expresión| Buscan siempre comunicar algo, son resultados mas unicos y humanos|
 
 
 
 - En un párrafo, describe con tus propias palabras qué significa “diseño generativo” en el contexto del entretenimiento digital. ¿Qué potencial ves en este enfoque para la creación de experiencias interactivas?
+
+  El diseño generativo es una forma de usar herramientas digitales para generar diseños que son controlados y parametrizados por nosotros los diseñadores, me parace que en el entretenimiento digital, mas que todo en el area de experiencias interactivas es una herramienta super buena porque nos permite crear experiencias dinamicas y adaptativas, no solo dependen de nuestra interaccion como diseñadores si no tambien tiene en cuenta al usuario, hace tomo mucho mas interactivo y personalizable.
+  
