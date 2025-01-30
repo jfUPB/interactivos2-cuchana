@@ -32,9 +32,10 @@ https://formlabs.com/latam/blog/diseno-generativo/?srsltid=AfmBOoo8u0tigCxy3n6Ho
 
   || Diseño generativo  | Arte generativo | Diseño tradicional |
   |-----------------|--------------------|-----------------|--------------------|
-  |Proceso creativo|
-  |Herramientas utilizadas|
-  |Rol del diseñador|
+  |Proceso creativo| Se basa en algoritmos y sistemas parametrizados que generan varias soluciones a partir de reglas| Usa parametros para crear arte, obras sonoras e interactivas| Depende totalmente del trabajo manual y la creatividad del diseñador|
+  
+  |Herramientas utilizadas|Softwares especializados, programacion e IA| Processing. p5.js, algoritmos generativos y lenguajes creativos|Herramientas físicas y digitales|
+  |Rol del diseñador|Definir reglas, parámetros y restricciones para guiar el proceso creativo| 
   |Resultados obtenidos|
 
 
