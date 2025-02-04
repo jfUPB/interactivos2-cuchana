@@ -20,14 +20,24 @@
 
   Link a su pagina: https://www.liaworks.com
 
-**Artista #2:** Refik Anadol
+**Artista #2:** Zach Lieberman 
 
-  Biografía breve: 
+  Biografía breve:  es un artista, programador y educador estadounidense conocido por su trabajo en el campo del arte generativo e interactivo. Es cofundador de openFrameworks, una herramienta de código abierto para la creación de arte digital y gráficos interactivos. Su trabajo se enfoca en la combinación de código, luz y sonido para generar experiencias visuales dinámicas.
   
    Análisis de obras:
-  1. 
-  2. 
+  1. "Daily Sketches"
+      Serie de experimentos visuales en los que explora interacciones entre formas, colores y movimiento mediante programación generativa. Usa openFrameworks y scripts en C++ para generar interacciones entre elementos gráficos, utilizando funciones matemáticas para modelar la animación y la transformación de figuras.
+     
+     ![image](https://github.com/user-attachments/assets/1a58e8c5-083b-4b81-85ac-f0429ca54059)
 
-  Influencias:
 
-  Link a su pagina: 
+ 2. "Ink Space"
+     Una aplicación interactiva que permite dibujar en 3D y manipular trazos en un espacio tridimensional utilizando la gravedad y el movimiento. Desarrollado con openFrameworks, utiliza un sistema de partículas y detección de movimiento para transformar los trazos en formas dinámicas que responden a la física.
+
+    ![image](https://github.com/user-attachments/assets/59cb5846-47db-4758-bc5f-00d50b68da57)
+
+
+  Influencias: esta influenciado por la tradición del arte computacional, artistas como John Maeda y Casey Reas, y las investigaciones de la Bauhaus sobre geometría y color. También incorpora elementos del diseño interactivo y la exploración de interfaces digitales innovadoras.
+
+  Link a su pagina: https://zachlieberman.myshopify.com/?fbclid=PAZXh0bgNhZW0CMTEAAaaWaeaNdEmdSZENMMZ5fj-tyxh7KH1lODvGG4Rqpqmfoppfvq3Q6c_w_V8_aem_yiLXy82H9zIf_yJsyw417g
+  
