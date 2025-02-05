@@ -73,6 +73,9 @@ Genuary 10: You can only use TAU in your code
 
 Descripción del código: Este código genera una animación en la que formas geométricas (basadas en polígonos) se dibujan utilizando ruido Simplex para crear movimientos y cambios de forma en el tiempo. Los colores de las formas también cambian dinámicamente, y se muestra el texto "TAU" al final del lienzo.
 
+![image](https://github.com/user-attachments/assets/a934af06-fbc5-459a-be22-a9d8faba2769)
+
+
 ```js
 let simplex
 let colors=["#c69322","#c0bd9b","#a08b8d","#005e84","#42a5e4","#4ad3c8","#02c287"]
@@ -230,5 +233,7 @@ function colorMixer(r, colorArray, alpha) {
 }
 
 ```
+![image](https://github.com/user-attachments/assets/c1435850-4514-41b9-9121-b4730a39a1a4)
+
 
 Reflexión: Este ejercicio me sirvio mucho para repasar las bases de p5.js, tambien para aprender nuevas bibliotecas como el noise, el cargar fuentes, etc
