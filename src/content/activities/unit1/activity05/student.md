@@ -6,10 +6,14 @@ http://www.generative-gestaltung.de/2/sketches/?01_P/P_1_2_3_01
 
 Descripción: El sketch genera una cuadrícula de rectángulos con colores aleatorios, los colores se pueden alterar con los numeros de 0 a 9, que cada uno altera la saturacion y brillo de forma aleatoria. Los parametros clave son tileCount (maneja el numero de cuadritos), colorMode(define el modo de color con los numeros).
 
+Usa un arreglo de hueValues, saturationValues y brightnessValues, que almacena los datos de tono, saturacion y brillo, en el setup preestablece un modo de color, quita los bordes y despues le asigna colores aleatorios.
+Usan un limitador del mouse dentro de la ventana, evitando que nos salgamos del tamaño del lienzo, el conteo de filas y columnas varia segun la posicion del mouse, y con los numeros generamos nuevos valores de color aleatorios. 
 
 **Variaciones:**
 
 Variacion 1: En la primera variacion aumente el numero de cuadritos e hice que cambiara los colores en funcion al tiempo, elimine las lineas de los numeros y cambie a una funcion de sin y cos, que usa millis para cambiar la iluminacion y la saturación. 
+
+Mantuve todos los valores iniciales, solo cambie el tile count a 50 cada uno, en el draw hice 3 lineas donde se suma un valor basado en una funcion de sin o cos respectivamente para que cambie lentamente el tono de los colores, para la saturacion y el brillo limite los numeros para que esten en un rango armonico visualmente.
 ```js
 var tileCountX = 50;
 var tileCountY = 50;
@@ -60,9 +64,18 @@ function draw() {
   }
 }
 ```
-
-Variación 2: 
-
+https://editor.p5js.org/luciana.gp0531/sketches/mJrG7OYef
 
 
+
+Aplicación potencial: Una posible aplicacion podria ser para musica, sea en aplicaciones o en vivo donde los cuadritos y los tonos reaccionen al ritmo de la musica, o tambien para fondos de pantalla que reaccionen al tipo de actividad que estamos haciendo.
+
+**Ejemplo 2:**
+http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_1_2_01
+
+Descripción: 
+
+Variaciones: crea al menos dos variaciones, modificando sus parámetros.
 Aplicación potencial: describe una posible aplicación de cada ejemplo en el contexto del entretenimiento digital.
+
+
