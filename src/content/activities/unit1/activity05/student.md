@@ -1,3 +1,16 @@
+#### Actividad #5:
+
+Ejemplo 1: 
+
+http://www.generative-gestaltung.de/2/sketches/?01_P/P_1_2_3_01
+
+Descripción: El sketch genera una cuadrícula de rectángulos con colores aleatorios, los colores se pueden alterar con los numeros de 0 a 9, que cada uno altera la saturacion y brillo de forma aleatoria. Los parametros clave son tileCount (maneja el numero de cuadritos), colorMode(define el modo de color con los numeros).
+
+
+**Variaciones:**
+
+Variacion 1: En la primera variacion aumente el numero de cuadritos e hice que cambiara los colores en funcion al tiempo, elimine las lineas de los numeros y cambie a una funcion de sin y cos, que usa millis para cambiar la iluminacion y la saturación. 
+```js
 var tileCountX = 50;
 var tileCountY = 50;
 
@@ -46,3 +59,10 @@ function draw() {
     }
   }
 }
+```
+
+Variación 2: 
+
+
+
+Aplicación potencial: describe una posible aplicación de cada ejemplo en el contexto del entretenimiento digital.
