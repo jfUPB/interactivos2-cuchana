@@ -65,17 +65,68 @@ function draw() {
 }
 ```
 https://editor.p5js.org/luciana.gp0531/sketches/mJrG7OYef
-
-
+![image](https://github.com/user-attachments/assets/f20a3ba6-e33e-452f-b1e2-c8de48649bf4)
 
 Aplicación potencial: Una posible aplicacion podria ser para musica, sea en aplicaciones o en vivo donde los cuadritos y los tonos reaccionen al ritmo de la musica, o tambien para fondos de pantalla que reaccionen al tipo de actividad que estamos haciendo.
 
 **Ejemplo 2:**
+
 http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_1_2_01
 
-Descripción: 
+Descripción: Este codigo dibuja una cuadricula de círculos en la pantalla, la cantidad esta dada por tileCount, cada circulito se mueve aleatoriamente segun la posicion del mouse y se puede cambiar la disposicion haciendo click.
 
-Variaciones: crea al menos dos variaciones, modificando sus parámetros.
+
+Variaciones: cambie el código para que se dibujen cuadrados en vez de circulos, solo renombre las variables, cambie ellipse por rect y cambie la transparencia de los cuadrados.
+
+```js
+
+var tileCount = 20;
+var actRandomSeed = 0;
+
+var squareAlpha = 100
+var squareColor;
+
+function setup() {
+  createCanvas(600, 600);
+  noFill();
+  squareColor = color(0, 0, 0, squareAlpha);
+}
+
+function draw() {
+  translate(width / tileCount / 2, height / tileCount / 2);
+
+  background(255);
+
+  randomSeed(actRandomSeed);
+
+  stroke(squareColor);
+  strokeWeight(mouseY / 60);
+
+  for (var gridY = 0; gridY < tileCount; gridY++) {
+    for (var gridX = 0; gridX < tileCount; gridX++) {
+
+      var posX = width / tileCount * gridX;
+      var posY = height / tileCount * gridY;
+
+      var shiftX = random(-mouseX, mouseX) / 20;
+      var shiftY = random(-mouseX, mouseX) / 20;
+
+      rect(posX + shiftX, posY + shiftY, mouseY / 15, mouseY / 15);
+    }
+  }
+}
+
+function mousePressed() {
+  actRandomSeed = random(100000);
+}
+
+function keyReleased() {
+  if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+}
+
+
+```
+
 Aplicación potencial: describe una posible aplicación de cada ejemplo en el contexto del entretenimiento digital.
 
 
