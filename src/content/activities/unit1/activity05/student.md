@@ -75,7 +75,6 @@ http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_1_2_01
 
 Descripción: Este codigo dibuja una cuadricula de círculos en la pantalla, la cantidad esta dada por tileCount, cada circulito se mueve aleatoriamente segun la posicion del mouse y se puede cambiar la disposicion haciendo click.
 
-
 Variaciones: cambie el código para que se dibujen cuadrados en vez de circulos, solo renombre las variables, cambie ellipse por rect y cambie la transparencia de los cuadrados.
 
 ```js
@@ -127,6 +126,68 @@ function keyReleased() {
 
 ```
 
-Aplicación potencial: describe una posible aplicación de cada ejemplo en el contexto del entretenimiento digital.
+Aplicación potencial: Mientras experimentaba con mi variacion noté que hay unos patrones muy interesantes que pueden ser usados para el diseño de camisetas o prendas con este estampado para que los usuarios puedan personalizarla, pueden alterar el color, la transparencia, etc.
+
+**Ejemplo 3:**
+
+Descripción: Este código utiliza p5.js en modo de instancia (var sketch = function(p)) para generar una línea aleatoria con puntos sobre ella. Cada vez que se hace clic, se regenera la forma con una nueva semilla aleatoria, lo que cambia la estructura de la línea y los puntos.
+
+Variaciones: Usar curveVertex() para hacer lineas más curvas y suaves las lineas, y marque mejor los puntos dejando el fill fijo, en vez de random.
+
+```js
+var sketch = function(p) {
+  var actRandomSeed = 42;
+
+  p.setup = function() {
+    p.createCanvas(1024, 256);
+  };
+
+  p.draw = function() {
+    p.background(255);
+
+    // Línea suavizada con `curveVertex()`
+    p.stroke(0, 130, 164);
+    p.strokeWeight(1);
+    p.strokeJoin(p.ROUND);
+    p.noFill();
+
+    p.randomSeed(actRandomSeed);
+    p.beginShape();
+    p.curveVertex(0, p.height / 2); 
+    for (var x = 0; x < p.width; x += 10) {
+      var y = p.random(0, p.height);
+      p.curveVertex(x, y);
+    }
+    p.curveVertex(p.width, p.height / 2); 
+    p.endShape();
+
+   
+    p.noStroke();
+    p.fill(0); 
+
+    p.randomSeed(actRandomSeed);
+    for (var x = 0; x < p.width; x += 10) {
+      var y = p.random(0, p.height);
+      p.ellipse(x, y, 4, 4);
+    }
+  };
+
+  p.mousePressed = function() {
+    actRandomSeed = p.random(100000);
+  };
+
+  p.keyReleased = function() {
+    if (p.key == 's' || p.key == 'S') p.saveCanvas('generative_art', 'png');
+  };
+};
+
+var myp5 = new p5(sketch);
+
+
+```
+
+
+Aplicación potencial: En algun video juego para hacer caminos aleatorios entre niveles.
+
 
 
