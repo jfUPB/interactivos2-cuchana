@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2d9c6e66-42c6-4604-b31e-128f63427c3b)#### Actividad #6
+#### Actividad #6
 
 Investiga tres herramientas de software utilizadas en el diseño y arte generativo (por ejemplo q5.js, cables.gl, Three.js). Para cada herramienta:
 #### Paper.js 
