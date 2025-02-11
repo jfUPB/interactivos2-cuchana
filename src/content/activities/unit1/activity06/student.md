@@ -1,4 +1,4 @@
-#### Actividad #6
+![image](https://github.com/user-attachments/assets/2d9c6e66-42c6-4604-b31e-128f63427c3b)#### Actividad #6
 
 Investiga tres herramientas de software utilizadas en el diseño y arte generativo (por ejemplo q5.js, cables.gl, Three.js). Para cada herramienta:
 #### Paper.js 
@@ -14,9 +14,25 @@ Aplicaciones: Herramientas de dibujo interactivas donde los usuarios dibujen y m
 
 #### Tone.js
 
+https://tonejs.github.io
+
 Descripción: Es una libreria de JavaScript que permite generar y manipular audio en la web, ofrece herramientas para síntesis de sonido, efectos de audio y secuenciación musical. Es ampliamente utilizada en proyectos de artes sonoro, musica generetavia e instalaciones interactivas. 
 
 Tipo de contenido: Sonido generativo, música interactiba o procesamientos de audio en tiempo real.
 
-Aplicaciones: Desarrollar sintetizadores y samplers para componer musica en la web con instumentos virtuales, integracion de sonidos en experiencias interactivas
+Aplicaciones: Desarrollar sintetizadores y samplers para componer musica en la web con instumentos virtuales, integracion de sonidos en experiencias interactivas.
+
+![image](https://github.com/user-attachments/assets/61aeb69c-6dfb-4256-9708-b2bf36927416)
+
+#### PEX (PEX.gl)
+
+https://pex.gl
+
+Descripción: Es un conjunto de herramientas para gráficos generativos y arte interactivo basado en WebGL. Se enfoca en la creación de experiencias visuales avanzadas mediante shaders, geometría procedimental y efectos visuales complejos. Está inspirado en Processing y OpenFrameworks, pero con un enfoque optimizado para la web.
+
+Tipo de contenido: Animaciones generativas, visualizaciones 3D interactivas y arte en timpo real basado en shaders.
+
+Aplicaciones: experiencias visuales en la web, creacion de paisajes, estructuras y geometrias.
+
+![image](https://github.com/user-attachments/assets/dbd7f845-7f74-4ee7-8000-51d08be77e4a)
 
