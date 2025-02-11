@@ -12,12 +12,11 @@ Aplicaciones: Herramientas de dibujo interactivas donde los usuarios dibujen y m
 
 ![image](https://github.com/user-attachments/assets/080ebdb9-3c90-4529-a1ac-72d69196a933)
 
-#### Regl.js 
+#### Tone.js
 
-Descripción: es una alternativa más ligera y funcional que Three.js para manejar gráficos en WebGL, permite trabajar con shaders y efectos visuales avanzados con una API declarativa que simplifica el proceso de renderizado.
+Descripción: Es una libreria de JavaScript que permite generar y manipular audio en la web, ofrece herramientas para síntesis de sonido, efectos de audio y secuenciación musical. Es ampliamente utilizada en proyectos de artes sonoro, musica generetavia e instalaciones interactivas. 
 
-Tipo de contenido: Graficos 3D interactivos, visualizaciones en WebGL, efectos de partículas y simulaciones. 
+Tipo de contenido: Sonido generativo, música interactiba o procesamientos de audio en tiempo real.
 
-Aplicaciones: Creación de dashboards y gráficos en 3D, juegos experimentales uso en prototipos con físicas avanzadas, creacion de composiciones digitales en tiempo real. 
-
+Aplicaciones: Desarrollar sintetizadores y samplers para componer musica en la web con instumentos virtuales, integracion de sonidos en experiencias interactivas
 
