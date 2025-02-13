@@ -8,9 +8,11 @@ La aleatoriedad en programación se usa para generar variaciones impredecibles e
 **Ejemplos:**
 
 https://natureofcode.com/random/#example-01-a-traditional-random-walk
+
 Se basa en un objeto llamado Walker que se mueve en una direccion aleatoria en cada fotograma, se usa un generador de números aleatorios para determinar si el objeto se moverá hacia x direccion. 
 
 https://natureofcode.com/random/#example-04-a-gaussian-distribution
+
 Usa randomGauss, que genera valores alrededor de una media con cierta desviación éstandar, en este caso genera circulos con posiciones en x aleatoreas. 
 
 **Potencial en entretenimiento digital:**
@@ -26,9 +28,12 @@ Un autómata celular es una rejilla de celdas donde cada celda sigue reglas simp
 **Ejemplos:**
 
 https://natureofcode.com/cellular-automata/#example-72-game-of-life
+
 Es un sistema basado en reglas donde una cuadrícula de celdas evoluciona a lo largo del tiempo, cada celda puede estar viva o muerta, y su estado en el siguiente ciclo depende del número de celdas celúlas vecinas activas.
 
 https://natureofcode.com/cellular-automata/#example-71-wolfram-elementary-cellular-automata
+
+La regla 30 es un automata celular unidimensional donde cada celda de una fila depende del estado de tres celdas en la fila anterios, en este ejemplo muestra un patrón caótico que emerge a partir de condiciones iniciales simples.
 
 
 **Potencial en entretenimiento digital:**
@@ -43,9 +48,11 @@ Los fractales son estructuras geométricas que se repiten a diferentes escalas. 
 
 **Ejemplos:**
 https://natureofcode.com/fractals/#example-86-a-recursive-tree
+
 Es una estructura geométrica que se repite a diferentes escalas, se usa una funcion recursiva para dibujar ramas que se divivden en otras mas pequeñas, creando un pátron similar a un árbol.
 
 https://natureofcode.com/fractals/#example-87-a-stochastic-tree
+
 Es una estructura generada recursivamente donde cada rama se divide en ramas más pequeñas, se basa en la geometría fractal y es útil para modelar elementos naturales como árboles, venas de hojas o estructuas de rios.
 
 **Potencial en entretenimiento digital:**
