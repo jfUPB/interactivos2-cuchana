@@ -45,6 +45,9 @@ Los fractales son estructuras geométricas que se repiten a diferentes escalas. 
 https://natureofcode.com/fractals/#example-86-a-recursive-tree
 Es una estructura geométrica que se repite a diferentes escalas, se usa una funcion recursiva para dibujar ramas que se divivden en otras mas pequeñas, creando un pátron similar a un árbol.
 
+https://natureofcode.com/fractals/#example-87-a-stochastic-tree
+Es una estructura generada recursivamente donde cada rama se divide en ramas más pequeñas, se basa en la geometría fractal y es útil para modelar elementos naturales como árboles, venas de hojas o estructuas de rios.
+
 **Potencial en entretenimiento digital:**
 Creación de paisajes y entornos naturales realistas en videojuegos y simulaciones.
 Generación de efectos visuales como rayos, fuego y nubes volumétricas.
