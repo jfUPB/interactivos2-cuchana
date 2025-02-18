@@ -1,8 +1,12 @@
 #### Activad #9 
 
+Enunciado: utilizando p5.js, crea un programa que genere formas geométricas (círculos, cuadrados, triángulos) con posición, tamaño y color aleatorios. Experimenta con diferentes funciones de p5.js para controlar la aleatoriedad y la apariencia de las formas.
 
+Para hacer este código tuve que usar random para el color, tamaño y posicion.
 
+X y Y controla la posicion, que la limite de 0 a 600 que es el tamaño del canva para que no se salgan mucho del borde, y una variable forma que va hasta 3 que cambia entre circulo, cuadrado y triangulo y el tamaño de estas tambien es aleatorio pero limitado.
 
+Nota: el noLoop() es para que no se refresquen los dibujos en cada ejecución
 
 
 ```js
@@ -12,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(240);
+  background(250);
 
   for (let i = 0; i < (20,30); i++) {
     let x = random(0,600);
