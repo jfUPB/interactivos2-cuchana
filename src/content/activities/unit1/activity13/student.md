@@ -1,4 +1,4 @@
-#### Actividad #12
+#### Actividad #13
 
 Utilizando la biblioteca p5.sound (u otra que quieras probar), experimenta con la generación de sonidos básicos. Intenta crear diferentes tipos de ondas sonoras (senoidal, triangular, cuadrada) y modificar sus parámetros (frecuencia, amplitud) para generar diferentes tonos y timbres.
 
