@@ -27,8 +27,3 @@
 
   - Estadísticas en la app muestran el impacto del público en la experiencia.
 
-- Storytelling:
-
-  - La experiencia representa el ciclo de un cosmos en formación, donde la moda es energía estelar y el público actúa como un moldeador del universo.
-
-  - Cada decisión e interacción en tiempo real contribuye a la construcción de una historia única en cada función, fusionando tecnología, arte y participación colectiva.
