@@ -44,9 +44,10 @@ Los pasos representan la formación de galaxias, mientras que el público es qui
 
 Outputs: descripción detallada (Tipo, Elementos, Propiedades Dinámicas). Explica la relación Input->Process->Output y cómo manifiestan el Storytelling. Puedes incluir bocetos simples si es visual.
 
-| Tipo | Elementos | Propiedades Dinámicas |
-|------|-----------|-----------------------|
-|Visual| Galxias en pasarela | Posicion, tamaño y btillo|
-|Visual| Explosiones de luces en el domo| Color, intensidad y duracion|
-|Visual| Fondo del escenario (domo)| Imagenes con transición suave|
+| Tipo | Elementos | Propiedades Dinámicas | ¿Como manifiestan el storytelling?|
+|------|-----------|-----------------------|-----------------------------------|
+|Visual| Galxias en pasarela | Posicion, tamaño y brillo| Expansión del universo con cada paso|
+|Visual| Explosiones de luces en el domo| Color, intensidad y duracion|Representa la energía del publico y su efecto como fuerza gravitacional|
+|Visual| Fondo del escenario (domo)| Imagenes con transición suave| Se adapta a la atmósfera deseada por el publico destacando su control en nuestro universo|
+|Estadistico|Datos en tablet| Numeros y data en vivo| Muestra el impacto del público en la experiencia|
 
