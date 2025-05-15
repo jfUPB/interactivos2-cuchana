@@ -1,0 +1,6 @@
+#### Actividad 1: 
+
+**¿Qué piensas de la idea de programar música en tiempo real? ¿Que oportunidades crees que puede ofrecer esta práctica en el contexto de Medellín?**
+
+Para empezar quiero agregar que me parece muy interesante juntar esas dos habilidades, la musica y el codigo, es una propuesta muy distinta, entretenida y que conecta dos mundos que estan con bastante acogida,
+en Medellín siento que especificamente para los raves y para el mundo de la electronica tiene muchas posibilidades de exito, principalmente debemos de tener en cuenta que esta tendencia musical en nuestra ciudad ha sido bien recibida, dando oportunidad a tener bares, eventos e incluso escuelas de DJs, por lo cual no solo es una oportunidad de transformar la forma en la que se vincula el codigo, con la musica e incluso los efectos visuales en esta escena musical, si no que tambien sirve como una oportunidad de enseñanza, imaginense cursos donde se aprenda a programar mientras tocas musica, es muy interesante y distinto. Entonces hay oportunidades en el área educativa, en la escena musical, el entretenimiento y puede ser un factor distintivo tenert por ejemplo un festival de algorave donde los observadores puedan intervenir con el codigo de los visuales. 
