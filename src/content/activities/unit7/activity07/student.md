@@ -1,6 +1,7 @@
 #### Actividad 7
 
 **Coincidencia diseño-implementacion:**
+
 Considero que logre implementar la logica central de mi blueprint, la secuencia de input-proceso-output se refleja claramente en la estructura principal del prototipo.
 Desviaciones: Hubo una pequeña falla en el camino respecto a que queria que los visuales tambien respondieran a combinaciones de inputs simultaneos, pero decidí simplificar esa logica para asegurar que el comportamiento principal fuera mas solido
 
